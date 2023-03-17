@@ -1,0 +1,22 @@
+{
+  "name": "typescript-executable",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node --enable-source-maps dist/main.mjs",
+    "lint": "tsc --noEmit && eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "packageManager": "pnpm@7.29.3",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "esbuild": "^0.17.12",
+    "eslint": "^8.36.0",
+    "typescript": "^4.9.5"
+  }
+}
